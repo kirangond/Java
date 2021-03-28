@@ -6,23 +6,23 @@ public class Employee1 {
 	int esalary;
 	String ename;
 	
-	Employee1(int id,int salary,String name)  //parameter container
+	
+	  Employee1(int id,int salary,String name)  //parameter container
+	
 	{
 		eid=id;
 		esalary=salary;
 		ename=name;
 	}
 	
-	//if states container and parameter containers are same then we use this keyword
 	/*
-	Employee1(int eid,int esalary,String ename)  //parameter container
+	Employee1(int eid,int esalary,String ename) 
 	{
-		this.eid=eid; //this is current invoking object reference
+		this.eid=eid;      //current invoking object reference
 		this.esalary=esalary;
 		this.ename=ename;
 	}
 	*/
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Employee1 e1=new Employee1(1,50000,"kirangond");  //passing arguments while creating object
